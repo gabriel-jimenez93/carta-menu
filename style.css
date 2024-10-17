@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    gap:10px ;
+}
+.carta-restaurant{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    border-radius: 15px;
+    border: 3px solid black;
+    padding: 10px;
+    gap: 5px;
+}
+.carta-restaurant__header{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: stretch;
+}
+.carta-restaurant__time{
+    background-color: rgb(218, 199, 215);
+    padding-left: 15px;
+}
+.carta-restaurant__strong{
+    font-weight: 600;
+}
+h3{
+    color:  rgb(148, 112, 143);
+}
+h2{
+    color:rgb(135, 98, 53);
+}
+.carta-restaurant__ingredients{
+    border-bottom: 1px solid rgb(151, 150, 150) ;
+}
+.carta-restaurant__instructions{
+    border-bottom: 1px solid rgb(151, 150, 150) ;
+}
+.carta-restaurant__nutrition{
+    display:flex;
+    flex-direction: column;
+    justify-content: stretch;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.carta-restaurant__description{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    gap:10px;
+    align-self: center;
+}
+.carta-restaurant__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.carta-restaurant__strong2{
+    font-weight: 700;
+    color: red;
+}
+
